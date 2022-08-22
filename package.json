@@ -1,0 +1,22 @@
+{
+  "name": "js-notes",
+  "version": "1.0.0",
+  "description": "记录个人学习路上的前端重要知识点和遇到的好文章",
+  "main": "index.js",
+  "repository": "git@github.com:MrT7707/js-notes.git",
+  "author": {
+    "name": "MrT7707",
+    "url": "https://github.com/MrT7707",
+    "email": "765331651@qq.com"
+  },
+  "scripts": {
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "yarn build; cd dist; git init; git add .;git commit -m 'deploy';git remote add origin git@github.com:MrT7707/js-notes.git.github.io.git;git push --set-upstream origin master -f"
+  },
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  }
+}

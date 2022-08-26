@@ -1,6 +1,6 @@
 # 网络篇
 
-假设你在网站上输入了 https://github.com/i-want-offer/FE-Interview-questions。
+假设你在网站上输入了 https://github.com/MrT7707/js-notes。
 
 ## 准备动作
 
